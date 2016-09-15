@@ -14,7 +14,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Net;
 using System.IO;
-using Newtonsoft.Json;
+using Newtonsoft.Json.Converters;
 
 namespace JarmonMeisseliPc
 {
@@ -38,13 +38,20 @@ namespace JarmonMeisseliPc
             var query = "";
             if (tag.Text != "")
             {
-
+                query += "personTag:\"" + tag.Text + "\" ";        
+                
             }
-            if (personId.Text != "")
+            if (toolId.Text != "")
             {
-                query += "Person"
+                query += "toolId:\"" + toolId.Text + "\"";
             }
-            HttpWebRequest httpRequest = (HttpWebRequest)WebRequest.Create("http://localhost:3000/api?query(");
+           // HttpWebRequest httpRequest = (HttpWebRequest)WebRequest.Create("http://localhost:3000/api?query=InsertToolUse("+ query +")");
+           // httpRequest.Method = "GET";
+            string postData = "query:";
+            postData += "InsertToolUse("+query+")";
+            Console.WriteLine(postData);
+            //var data = Encoding.ASCII.GetBytes(postData);
+           // var response = (HttpWebResponse)httpRequest.GetResponse();
         }
     }
 }

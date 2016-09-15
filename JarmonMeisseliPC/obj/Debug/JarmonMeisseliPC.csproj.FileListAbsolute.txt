@@ -1,1 +1,16 @@
 C:\git\JarmonMeisseliPC\JarmonMeisseliPC\bin\Debug\JarmonMeisseliPC.exe.config
+C:\git\JarmonMeisseliPC\JarmonMeisseliPc\bin\Debug\JarmonMeisseliPc.exe
+C:\git\JarmonMeisseliPC\JarmonMeisseliPc\bin\Debug\JarmonMeisseliPc.pdb
+C:\git\JarmonMeisseliPC\JarmonMeisseliPc\bin\Debug\Newtonsoft.Json.dll
+C:\git\JarmonMeisseliPC\JarmonMeisseliPc\bin\Debug\Newtonsoft.Json.xml
+C:\git\JarmonMeisseliPC\JarmonMeisseliPc\obj\Debug\JarmonMeisseliPc.csprojResolveAssemblyReference.cache
+C:\git\JarmonMeisseliPC\JarmonMeisseliPc\obj\Debug\MainWindow.g.cs
+C:\git\JarmonMeisseliPC\JarmonMeisseliPc\obj\Debug\App.g.cs
+C:\git\JarmonMeisseliPC\JarmonMeisseliPc\obj\Debug\JarmonMeisseliPc_MarkupCompile.cache
+C:\git\JarmonMeisseliPC\JarmonMeisseliPc\obj\Debug\JarmonMeisseliPc_MarkupCompile.lref
+C:\git\JarmonMeisseliPC\JarmonMeisseliPc\obj\Debug\MainWindow.baml
+C:\git\JarmonMeisseliPC\JarmonMeisseliPc\obj\Debug\JarmonMeisseliPc.g.resources
+C:\git\JarmonMeisseliPC\JarmonMeisseliPc\obj\Debug\JarmonMeisseliPc.Properties.Resources.resources
+C:\git\JarmonMeisseliPC\JarmonMeisseliPc\obj\Debug\JarmonMeisseliPc.csproj.GenerateResource.Cache
+C:\git\JarmonMeisseliPC\JarmonMeisseliPc\obj\Debug\JarmonMeisseliPc.exe
+C:\git\JarmonMeisseliPC\JarmonMeisseliPc\obj\Debug\JarmonMeisseliPc.pdb
