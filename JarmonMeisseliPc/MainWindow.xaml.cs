@@ -12,6 +12,9 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Net;
+using System.IO;
+using Newtonsoft.Json;
 
 namespace JarmonMeisseliPc
 {
@@ -23,6 +26,25 @@ namespace JarmonMeisseliPc
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void textBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            var query = "";
+            if (tag.Text != "")
+            {
+
+            }
+            if (personId.Text != "")
+            {
+                query += "Person"
+            }
+            HttpWebRequest httpRequest = (HttpWebRequest)WebRequest.Create("http://localhost:3000/api?query(");
         }
     }
 }
